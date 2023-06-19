@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.navGuidelineActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_icon"
+        android:backgroundTint="@color/statusbarcolor"
+        android:padding="9dp"
+        android:text="Guidelines for natural disaster"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="413dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintVertical_bias="0.083"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:id="@+id/guide_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="1. Stay informed and be prepared: Stay updated with weather forecasts and warnings provided by local authorities. Have a cyclone emergency kit ready, including essential supplies such as food, water, flashlights, batteries, a first aid kit, and necessary medications."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/guide_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="2. Secure your home: Reinforce windows and doors with shutters or boards to protect against strong winds. Clear your surroundings of any loose objects that could become projectiles in high winds. Secure or move outdoor furniture, plants, and other items indoors."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/guide_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="3. Evacuate if necessary: If authorities issue evacuation orders, follow them promptly. Be familiar with designated evacuation routes and shelters in your area. If you live in a low-lying or coastal region prone to storm surges, it is especially important to evacuate to higher ground."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/guide_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="4. Stay indoors and find shelter: If you cannot evacuate, seek shelter in a sturdy building away from windows and doors. Use a small, windowless interior room on the lowest level of your home. Take refuge in a bathroom, closet, or basement, if available. Be prepared for power outages and keep a battery-powered radio or mobile device to stay informed."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/guide_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="5. Stay away from flood-prone areas: Avoid walking or driving through floodwaters. Just six inches of moving water can knock you off your feet, and floodwaters may be deeper than they appear. Stay away from rivers, streams, and coastal areas that are at risk of flash flooding or storm surge."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/guide_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text="6. Maintain communication: Keep your mobile devices charged and have alternative communication methods like battery-powered radios. Inform family and friends about your whereabouts and well-being. If you require assistance, contact emergency services as soon as possible."
+                android:textSize="20sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

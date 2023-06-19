@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "362728668903",
+    "project_id": "track-for-safe",
+    "storage_bucket": "track-for-safe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362728668903:android:5786c040c7068ad326ac42",
+        "android_client_info": {
+          "package_name": "com.example.trackforsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362728668903-24asiegpguprc6findbe8kgnt68j0euu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trackforsafe",
+            "certificate_hash": "a6f5c2ff2925090101c54eec80dcb1b5ef8b09bf"
+          }
+        },
+        {
+          "client_id": "362728668903-o63o50fq100qro0l9qo4u9dh2allip9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiEzNisjoR9lRi5WhSbwikmc6GvOZy8jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362728668903-o63o50fq100qro0l9qo4u9dh2allip9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

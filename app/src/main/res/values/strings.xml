@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Track For Safe</string>
+    <string name="blank" />
+    <string name="star">*</string>
+    <string name="logintext">Login</string>
+    <string name="mobilenumbertext">Mobile Number</string>
+    <string name="otptext1">Enter your received </string>
+    <string name="verifyotptext">OTP Verification</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="password1">Password</string>
+    <string name="forgotpassword">Forgot Password ?</string>
+    <string name="newuser">Don\'t have an account ?</string>
+    <string name="newusersignup"><u>Sign Up</u></string>
+    <string name="loginbtn">login</string>
+    <string name="registertext">Register</string>
+    <string name="phoneoremail">Email or Phone Number</string>
+    <string name="phoneforotp">Phone Number</string>
+    <string name="password">Set Password</string>
+    <string name="invalidemail" />
+    <string name="invalidpass">Password must be at least 8 characters</string>
+    <string name="invalidephone" />
+    <string name="registerbtn">Register</string>
+    <string name="repassword">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="email">Email Address</string>
+    <string name="gender">Gender</string>
+    <string name="welcome">Welcome to my application</string>
+    <string name="developer">Created by Track For Safe Team</string>
+    <string name="logo">logo_image</string>
+    <string name="forgotpasswordlabel">Forgot Password</string>
+    <string name="continuebtn">Continue</string>
+    <string name="haveaccount">Already have an account ?</string>
+    <string name="sendotpbtn">Send OTP</string>
+    <string name="verifyotpbtn">Verify OTP</string>
+    <string name="loginlogo">Login Logo</string>
+    <string name="registerimg">Upload Register image</string>
+    <string name="uploadimg">Upload Image Button</string>
+    <string name="otpverifyimg">OTP Verification Image</string>
+    <string name="otptext">We will send you an <b>One Time Password</b> \n on this mobile number</string>
+    <string name="otptext2" tools:ignore="DuplicateDefinition">We will send you an One Time Password \n on</string>
+    <string name="dontreceive">Don\'t receive an OTP ?</string>
+    <string name="resendotp"><u>Resend OTP</u></string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>maps
+</resources>

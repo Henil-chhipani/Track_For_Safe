@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.TrackForSafe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#018786</item>
+        <item name="colorPrimaryVariant">#018786</item>
+        <item name="colorOnPrimary">@color/white</item>
+<!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+        <item name="colorSecondary">#018786</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">@color/white</item>
+<!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+        <item name="android:statusBarColor">@color/statusbarcolor</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/statusbarcolor</item>
+    </style>
+
+<!--    <style name="Theme.MaterialComponents.DayNight.NoActionBar">-->
+<!--        <item name="android:statusBarColor">@color/statusbarcolor</item>-->
+<!--        <item name="android:navigationBarColor">@color/statusbarcolor</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.TrackForSafe.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.TrackForSafe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+<!--    <style name="Theme.TrackForSafe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+</resources>

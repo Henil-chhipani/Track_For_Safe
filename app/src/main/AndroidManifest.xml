@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.trackforsafe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/trackforsafemin"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrackForSafe"
+        tools:targetApi="33">
+        <activity
+            android:name=".Activity.navAsk_for_help_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.navGuidelineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.navUpadate_locationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Language"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.navHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MobileNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.logo_activity"
+            android:exported="true"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.WelcomeActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Activity.forgotpassword_activity"
+            android:exported="true"
+            android:screenOrientation="locked" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
