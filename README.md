@@ -139,8 +139,8 @@
     </div>
 
     <div
-      style="text-align: center; padding: 5px; margin: 15px; font-size: 35px"
-    >
+     style="text-align: center; padding: 5px; margin: 15px; font-size: 35px"
+  >
       <img
         src="screenshot\ss1.jpg"
         style="
@@ -155,7 +155,7 @@
     </div>
     <div
       style="text-align: center; padding: 5px; margin: 15px; font-size: 40px"
-    >
+  >
       <img
         src="screenshot\Screenshot_11.jpg"
         style="
@@ -163,16 +163,13 @@
           display: block;
           margin-left: auto;
           margin-right: auto;
-        "
-      />
+        "/>
       This is Weather info fragment which call Weather api acording to your city
       and display weather data of your city and show forecast of weather. In
       this also you can search other city weather data.
     </div>
 
-    <div
-      style="text-align: center; padding: 5px; margin: 15px; font-size: 40px"
-    >
+    <div style="text-align: center; padding: 5px; margin: 15px; font-size: 40px">
       <img src="screenshot\Screenshot_6.jpg" style="width: 30%" />
       <img src="screenshot\Screenshot_7.jpg" style="width: 30%" />
       <img src="screenshot\Screenshot_8.jpg" style="width: 30%" />
@@ -181,18 +178,14 @@
       disaster
     </div>
 
-    <div
-      style="text-align: center; padding: 5px; margin: 15px; font-size: 40px"
-    >
-      <img
-        src="screenshot\Screenshot_10.jpg"
+    <div 
+  style="text-align: center; padding: 5px; margin: 15px; font-size: 40px">
+      <img src="screenshot\Screenshot_10.jpg"
         style="
           width: 30%;
           display: block;
           margin-left: auto;
-          margin-right: auto;
-        "
-      />
+          margin-right: auto; "/>
       This is update location page open when you click update location. This
       fuctionality is for update location in firebase. If you cahange city the
       notification can change accordingly. So user have to update their location
