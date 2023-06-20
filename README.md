@@ -2,4 +2,4 @@
 
 <img src="screenshot/Screenshot_1.jpg" style="width: 30%; display: block; margin-left: auto; margin-right: auto;">
        
-![Github image](screenshot/Screenshot_2.jpg)
+![](screenshot/Screenshot_2.jpg)
