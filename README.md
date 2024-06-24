@@ -1,15 +1,28 @@
-# Track_For_Safe This is our design engineering project
-<h3><a href="https://www.youtube.com/watch?v=tCRh4AGBNJg">Youtube video of app 📽️▶️</a></h3><br><be>
+# Track For Safe
 
-<img src="screenshot/Screenshot_1.jpg" style="width: 30%; display: block; margin-left: auto; margin-right: auto;">
-       
+## Overview
 
-<h3><p> → The app named Track for Safe aims to solve problems by effectively tracking them. In situations like natural disasters, the app's data can be crucial in saving lives. It has the capability to send notifications to users if they are in the red or orange zone, providing them with timely information for their safety.
+**Track For Safe** is a mobile application designed to enhance safety by effectively tracking potential dangers, such as natural disasters. The app can be life-saving by sending timely notifications to users in hazardous zones, allowing them to take necessary precautions.
 
-→ We understand that some of our users may not be proficient in English, which is why we offer support in three languages: English, Hindi, and Gujarati. This ensures that language barriers are overcome, and users can fully comprehend the information provided by the app.
+ <img src="screenshot/Screenshot_1.jpg" style="width: 30%; display: block; margin-left: auto; margin-right: auto;">
 
-→ If you need to update your location due to a city change, you can easily do so by clicking on the 'Update Location' option. Our backend is powered by Firebase, enabling smooth updates to your location information in our database.
+## Key Features
 
-→ Please note that the current demo version of the app is not fully functional. However, we are actively working on improving its functionality and will provide an update soon.
+- **Real-time Notifications**: Alerts users if they are in a red or orange zone, providing timely and crucial information for their safety.
+- **Multilingual Support**: Available in English, Hindi, and Gujarati, ensuring that language barriers do not prevent users from understanding important information.
+- **Easy Location Updates**: Users can update their location easily if they move to a new city by using the 'Update Location' option.
+- **Firebase Backend**: Ensures smooth and efficient updates to location information in the database.
 
-Thank you for your understanding. We appreciate any feedback or suggestions for improvement.</p></h3>
+
+## Feedback
+
+We value your feedback and suggestions for improvement. Please let us know how we can enhance your experience with Track For Safe.
+
+## Additional Resources
+
+- [Watch Demo Video](https://www.youtube.com/watch?v=tCRh4AGBNJg)
+- [Admin Panel Code](https://github.com/Henil-chhipani/Track-for-safe-Admin-pannel)
+
+---
+
+Thank you for your understanding and support. Stay safe!
